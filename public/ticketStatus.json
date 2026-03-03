@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login page bug",
+    "description": "Users cannot log in using Google authentication.",
+    "customer": "ABC Corporation",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-10"
+  },
+  {
+    "id": 2,
+    "title": "Dashboard UI improvement",
+    "description": "Redesign dashboard layout for better responsiveness.",
+    "customer": "TechNova Ltd",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-02-11"
+  },
+  {
+    "id": 3,
+    "title": "Payment gateway integration",
+    "description": "Integrate Stripe payment gateway into checkout system.",
+    "customer": "E-Shop World",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-12"
+  },
+  {
+    "id": 4,
+    "title": "Profile update issue",
+    "description": "User profile image upload fails on mobile devices.",
+    "customer": "Bright Solutions",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-02-13"
+  },
+  {
+    "id": 5,
+    "title": "Search functionality optimization",
+    "description": "Improve search speed for large datasets.",
+    "customer": "DataCorp",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-02-14"
+  },
+  {
+    "id": 6,
+    "title": "Notification email failure",
+    "description": "System not sending confirmation emails to users.",
+    "customer": "CloudNet",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-15"
+  },
+  {
+    "id": 7,
+    "title": "Add dark mode",
+    "description": "Implement dark mode feature in application settings.",
+    "customer": "Creative Apps",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-02-16"
+  },
+  {
+    "id": 8,
+    "title": "API response delay",
+    "description": "Backend API response time exceeds 3 seconds.",
+    "customer": "FinTech Pro",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-02-17"
+  },
+  {
+    "id": 9,
+    "title": "Export report feature",
+    "description": "Enable CSV and PDF export for reports.",
+    "customer": "Insight Analytics",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-18"
+  },
+  {
+    "id": 10,
+    "title": "Mobile layout fix",
+    "description": "Fix broken layout in iOS Safari browser.",
+    "customer": "Global Retail",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-02-19"
+  },
+  {
+    "id": 11,
+    "title": "Password reset issue",
+    "description": "Password reset link expires too quickly.",
+    "customer": "SecureAuth",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-20"
+  },
+  {
+    "id": 12,
+    "title": "Database backup automation",
+    "description": "Automate daily database backups.",
+    "customer": "NextGen IT",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-02-21"
+  },
+  {
+    "id": 13,
+    "title": "User role management",
+    "description": "Add admin and moderator role management features.",
+    "customer": "EduPlatform",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-22"
+  },
+  {
+    "id": 14,
+    "title": "Analytics integration",
+    "description": "Integrate Google Analytics for tracking user behavior.",
+    "customer": "MarketHub",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-02-23"
+  },
+  {
+    "id": 15,
+    "title": "Security vulnerability patch",
+    "description": "Fix XSS vulnerability found in comment section.",
+    "customer": "CyberSafe",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-02-24"
+  }
+]
