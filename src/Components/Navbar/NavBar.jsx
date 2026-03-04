@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 justify-between flex md:px-50">
+    <div className="navbar bg-base-100 justify-between flex md:px-45">
       <div className="navbar-start ">
         <a className="text-2xl font-bold sm:first: p-3">TS_TicketXpress</a>
       </div>
