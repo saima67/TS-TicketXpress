@@ -1,0 +1,45 @@
+.status-card {
+  width: 708px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress {
+  background: linear-gradient(
+    90deg,
+    rgba(99, 46, 227, 1) 0%,
+    rgba(159, 98, 242, 1) 100%
+  );
+}
+
+.resolve {
+  background: linear-gradient(
+    90deg,
+    rgba(84, 207, 104, 1) 0%,
+    rgba(0, 130, 122, 1) 100%
+  );
+}
+
+.banner-img {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  object-fit: cover;
+}
+
+.left-img {
+  left: 0;
+}
+
+.right-img {
+  right: 0;
+  transform: scaleX(-1);
+}

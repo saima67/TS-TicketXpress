@@ -57,7 +57,7 @@ const Footer = () => {
                 @TS_TicketXpress
               </li>
               <li className="py-1 font-normal cursor-pointer">
-                <i class="fa-brands fa-instagram text-white mr-1 "></i>
+                <i className="fa-brands fa-instagram text-white mr-1 "></i>
                 @TS_TicketXpress
               </li>
               <li className="py-1 font-normal cursor-pointer">
