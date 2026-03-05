@@ -1,7 +1,7 @@
 import { Suspense, useState } from "react";
 import "./App.css";
 import NavBar from "./Components/Navbar/NavBar";
-import Footer from "./Components/Footer/footer";
+import Footer from "./Components/Footer/Footer";
 import Banner from "./Components/Banner/Banner";
 import CustomerTickets from "./Components/CustomerTickets/CustomerTickets";
 
