@@ -3,84 +3,82 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="bg-[#632ee3] md:px-50 py-7">
-        <div className="flex flex-col md:flex-row justify-between md:px-0 py-5">
-          <div className="md:basis-sm px-1 ">
-            <h2 className="text-white font-bold text-lg mb-3">
+    <div className="footer-section bg-[#000000] md:px-20 py-5">
+        <div className="flex flex-col md:flex-row justify-evenly md:px-0">
+          <div className="w-3/12">
+            <h2 className="font-bold text-xl text-white mb-3">
               TS_TicketXpress
             </h2>
-            <p className="text-white text-sm">
+            <p className="text-sm text-justify">
               Our ticketing system is a tool used to track and manage customer
               issues or service requests. It creates a unique ticket for each
               problem, helping teams organize, prioritize, and resolve tasks
               efficiently.
             </p>
           </div>
-          <div className="text-white md:basis-sm md:pl-20 mt-5 md:mt-0">
-            <h2 className="font-semibold">Company</h2>
-            <ul className="text-white font-semibold">
-              <li className="py-1 font-normal cursor-pointer">Abut Us</li>
-              <li className="py-1 font-normal cursor-pointer">Our Mission</li>
-              <li className="py-1 font-normal cursor-pointer">Contact Us</li>
+          <div className="w-2/12 ml-20 mt-5 md:mt-0">
+            <h2 className="font-semibold text-white mb-3">Company</h2>
+            <ul className="font-semibold">
+              <li className="font-normal cursor-pointer">About Us</li>
+              <li className="py-2 font-normal cursor-pointer">Our Mission</li>
+              <li className="font-normal cursor-pointer">Contact Us</li>
             </ul>
           </div>
-          <div className="md:basis-sm mt-5 md:mt-0">
-            <h2 className="text-white font-semibold">Services</h2>
-            <ul className="text-white font-semibold">
-              <li className="py-1 font-normal cursor-pointer">
+          <div className="w-2/12 mt-5 md:mt-0">
+            <h2 className="font-semibold text-white mb-3">Services</h2>
+            <ul className="font-semibold">
+              <li className="font-normal cursor-pointer">
                 Products & Services
               </li>
-              <li className="py-1 font-normal cursor-pointer">
+              <li className="py-2 font-normal cursor-pointer">
                 Customer Stories
               </li>
-              <li className="py-1 font-normal cursor-pointer">Download Apps</li>
+              <li className="font-normal cursor-pointer">Download Apps</li>
             </ul>
           </div>
-          <div className="md:basis-sm mt-5 md:mt-0">
-            <h2 className="text-white font-semibold">Information</h2>
-            <ul className="text-white font-semibold">
-              <li className="py-1 font-normal cursor-pointer">
+          <div className="w-2/12 ml-10 mt-5 md:mt-0">
+            <h2 className="font-semibold text-white mb-3">Information</h2>
+            <ul className="font-semibold">
+              <li className="font-normal cursor-pointer">
                 Privacy Policy
               </li>
-              <li className="py-1 font-normal cursor-pointer">
+              <li className="py-2 font-normal cursor-pointer">
                 Terms & Conditions
               </li>
-              <li className="py-1 font-normal cursor-pointer">Join Us</li>
+              <li className="font-normal cursor-pointer ">Join Us</li>
             </ul>
           </div>
-          <div className="md:basis-sm mt-5 md:mt-0 ">
-            <h2 className="text-white font-semibold">Social Links</h2>
-            <ul className="text-white font-semibold">
-              <li className="py-1 font-normal cursor-pointer">
-                <i className="fa-brands fa-facebook-f text-white mr-1 "></i>
+          <div className="w-2/12 pl-10 mt-5 md:mt-0">
+            <h2 className="font-semibold text-white mb-3">Social Links</h2>
+            <ul className="font-semibold">
+              <li className="font-normal cursor-pointer">
+                <i className="fa-brands fa-facebook-f mr-2"></i>
                 @TS_TicketXpress
               </li>
-              <li className="py-1 font-normal cursor-pointer">
-                <i className="fa-brands fa-instagram text-white mr-1 "></i>
+              <li className="py-2 font-normal cursor-pointer">
+                <i className="fa-brands fa-instagram mr-2"></i>
                 @TS_TicketXpress
               </li>
-              <li className="py-1 font-normal cursor-pointer">
-                {" "}
-                <i className="fa-brands fa-linkedin text-white mr-1 "></i>
+              <li className="pb-2 font-normal cursor-pointer">
+                
+                <i className="fa-brands fa-linkedin mr-2"></i>
                 @TS_TicketXpress
               </li>
-              <li className="py-1 font-normal cursor-pointer">
-                {" "}
-                <i className="fa-regular fa-envelope text-white mr-1 "></i>
+              <li className="font-normal cursor-pointer">
+                
+                <i className="fa-regular fa-envelope mr-2"></i>
                 support@tst.com
               </li>
             </ul>
           </div>
         </div>
-        <div className="border border-white"></div>
-        <div className="flex flex-col-reverse md:flex-row justify-center px-5 py-5">
-          <p className="text-white">
+        <div className="border border-[#9494946c] my-5"></div>
+        <div className="flex flex-col-reverse md:flex-row justify-center px-5">
+          <p>
             &copy; 2026 VintageShop,Inc. All Rights Reserved.
           </p>
         </div>
       </div>
-    </div>
   );
 };
 

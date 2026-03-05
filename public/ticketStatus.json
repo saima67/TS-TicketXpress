@@ -3,8 +3,8 @@
     "id": 1,
     "title": "Login page bug",
     "description": "Users cannot log in using Google authentication.",
-    "customer": "ABC Corporation",
-    "priority": "High",
+    "customer": "ABC Corp.",
+    "priority": "High Priority",
     "status": "Open",
     "createdAt": "2026-02-10"
   },
@@ -13,8 +13,8 @@
     "title": "Dashboard UI improvement",
     "description": "Redesign dashboard layout for better responsiveness.",
     "customer": "TechNova Ltd",
-    "priority": "Medium",
-    "status": "In Progress",
+    "priority": "Medium Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-11"
   },
   {
@@ -22,7 +22,7 @@
     "title": "Payment gateway integration",
     "description": "Integrate Stripe payment gateway into checkout system.",
     "customer": "E-Shop World",
-    "priority": "High",
+    "priority": "High Priority",
     "status": "Open",
     "createdAt": "2026-02-12"
   },
@@ -31,8 +31,8 @@
     "title": "Profile update issue",
     "description": "User profile image upload fails on mobile devices.",
     "customer": "Bright Solutions",
-    "priority": "Low",
-    "status": "Resolved",
+    "priority": "Low Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-13"
   },
   {
@@ -40,8 +40,8 @@
     "title": "Search function optimization",
     "description": "Improve search speed for large datasets.",
     "customer": "DataCorp",
-    "priority": "Medium",
-    "status": "In Progress",
+    "priority": "Medium Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-14"
   },
   {
@@ -49,7 +49,7 @@
     "title": "Notification email failure",
     "description": "System not sending confirmation emails to users.",
     "customer": "CloudNet",
-    "priority": "High",
+    "priority": "High Priority",
     "status": "Open",
     "createdAt": "2026-02-15"
   },
@@ -58,7 +58,7 @@
     "title": "Add dark mode",
     "description": "Implement dark mode feature in application settings.",
     "customer": "Creative Apps",
-    "priority": "Low",
+    "priority": "Low Priority",
     "status": "Open",
     "createdAt": "2026-02-16"
   },
@@ -67,8 +67,8 @@
     "title": "API response delay",
     "description": "Backend API response time exceeds 3 seconds.",
     "customer": "FinTech Pro",
-    "priority": "High",
-    "status": "In Progress",
+    "priority": "High Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-17"
   },
   {
@@ -76,8 +76,8 @@
     "title": "Export report feature",
     "description": "Enable CSV and PDF export for reports.",
     "customer": "Insight Analytics",
-    "priority": "Medium",
-    "status": "Open",
+    "priority": "Medium Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-18"
   },
   {
@@ -85,8 +85,8 @@
     "title": "Mobile layout fix",
     "description": "Fix broken layout in iOS Safari browser.",
     "customer": "Global Retail",
-    "priority": "High",
-    "status": "Resolved",
+    "priority": "High Priority",
+    "status": "Open",
     "createdAt": "2026-02-19"
   },
   {
@@ -94,7 +94,7 @@
     "title": "Password reset issue",
     "description": "Password reset link expires too quickly.",
     "customer": "SecureAuth",
-    "priority": "Medium",
+    "priority": "Medium Priority",
     "status": "Open",
     "createdAt": "2026-02-20"
   },
@@ -103,8 +103,8 @@
     "title": "Database backup automation",
     "description": "Automate daily database backups.",
     "customer": "NextGen IT",
-    "priority": "Low",
-    "status": "In Progress",
+    "priority": "Low Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-21"
   },
   {
@@ -112,8 +112,8 @@
     "title": "User role management",
     "description": "Add admin and moderator role management features.",
     "customer": "EduPlatform",
-    "priority": "High",
-    "status": "Open",
+    "priority": "High Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-22"
   },
   {
@@ -121,8 +121,8 @@
     "title": "Analytics integration",
     "description": "Integrate Google Analytics for tracking user behavior.",
     "customer": "MarketHub",
-    "priority": "Medium",
-    "status": "Resolved",
+    "priority": "Medium Priority",
+    "status": "Open",
     "createdAt": "2026-02-23"
   },
   {
@@ -130,8 +130,8 @@
     "title": "Security vulnerability patch",
     "description": "Fix XSS vulnerability found in comment section.",
     "customer": "CyberSafe",
-    "priority": "High",
-    "status": "In Progress",
+    "priority": "High Priority",
+    "status": "In-Progress",
     "createdAt": "2026-02-24"
   }
 ]

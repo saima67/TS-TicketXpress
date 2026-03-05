@@ -3,7 +3,7 @@ import vectorImg from "../../assets/vector1.png";
 import "./Banner.css";
 const Banner = () => {
   return (
-    <div className="bg-gray-50 p-3  md:px-45 flex justify-between gap-10 ">
+    <div className="bg-gray-50 md:px-20 py-10 flex justify-between gap-10 ">
       <div className="status-card progress">
         <img src={vectorImg} className="banner-img left-img" alt="progress" />
         <img src={vectorImg} className="banner-img right-img" alt="progress" />
