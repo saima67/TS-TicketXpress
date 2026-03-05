@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer-section bg-[#000000] md:px-20 py-5">
         <div className="flex flex-col md:flex-row justify-evenly md:px-0">
-          <div className="w-3/12">
+          <div className="md:w-3/12 pl-5 pr-10 md:px-0">
             <h2 className="font-bold text-xl text-white mb-3">
               TS_TicketXpress
             </h2>
@@ -16,7 +16,7 @@ const Footer = () => {
               efficiently.
             </p>
           </div>
-          <div className="w-2/12 ml-20 mt-5 md:mt-0">
+          <div className="md:w-2/12 px-5 md:px-0 md:ml-20 mt-5 md:mt-0">
             <h2 className="font-semibold text-white mb-3">Company</h2>
             <ul className="font-semibold">
               <li className="font-normal cursor-pointer">About Us</li>
@@ -24,7 +24,7 @@ const Footer = () => {
               <li className="font-normal cursor-pointer">Contact Us</li>
             </ul>
           </div>
-          <div className="w-2/12 mt-5 md:mt-0">
+          <div className="md:w-2/12 px-5 md:px-0 mt-5 md:mt-0">
             <h2 className="font-semibold text-white mb-3">Services</h2>
             <ul className="font-semibold">
               <li className="font-normal cursor-pointer">
@@ -36,7 +36,7 @@ const Footer = () => {
               <li className="font-normal cursor-pointer">Download Apps</li>
             </ul>
           </div>
-          <div className="w-2/12 ml-10 mt-5 md:mt-0">
+          <div className="md:w-2/12 pl-5 md:ml-10 mt-5 md:mt-0">
             <h2 className="font-semibold text-white mb-3">Information</h2>
             <ul className="font-semibold">
               <li className="font-normal cursor-pointer">
@@ -48,7 +48,7 @@ const Footer = () => {
               <li className="font-normal cursor-pointer ">Join Us</li>
             </ul>
           </div>
-          <div className="w-2/12 pl-10 mt-5 md:mt-0">
+          <div className="md:w-2/12 pl-5 md:pl-10 mt-5 md:mt-0">
             <h2 className="font-semibold text-white mb-3">Social Links</h2>
             <ul className="font-semibold">
               <li className="font-normal cursor-pointer">
@@ -72,8 +72,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="border border-[#9494946c] my-5"></div>
-        <div className="flex flex-col-reverse md:flex-row justify-center px-5">
+        <div className="border border-[#9494946c] my-5 mx-5 md:mx-0"></div>
+        <div className="flex flex-col items-center md:flex-row justify-center px-5">
           <p>
             &copy; 2026 VintageShop,Inc. All Rights Reserved.
           </p>

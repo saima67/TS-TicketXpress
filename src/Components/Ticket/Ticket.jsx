@@ -2,11 +2,11 @@ import React from "react";
 import "./Ticket.css";
 const Ticket = ({ ticket, handleTicket }) => {
   return (
-    <div className="card p-4 bg-base-100 shadow-sm text-[#627382] cursor-pointer" onClick={() => handleTicket(ticket)}>
-      <div className="flex justify-between">
-        <h4 className="text-nowrap text-[#34485A] font-semibold ">{ticket.title}</h4>
+    <div className="card w-60 md:w-auto p-4 bg-base-100 shadow-sm text-[#627382] cursor-pointer" onClick={() => handleTicket(ticket)}>
+      <div className="flex flex-col md:flex-row justify-between">
+        <h4 className="text-nowrap text-[#34485A] font-semibold mb-2">{ticket.title}</h4>
         <div
-          className={`text-nowrap px-2 rounded-2xl font-medium inline-flex items-center gap-1 ${
+          className={`text-nowrap w-30 md:w-auto justify-center px-2 rounded-2xl font-medium inline-flex items-center gap-1 ${
             ticket.status === "Open"
               ? "bg-[#B9F8CF] text-[#0B5E06]"
               : "bg-[#F8F3B9] text-[#9C7700]"
