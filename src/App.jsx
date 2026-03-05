@@ -8,17 +8,24 @@ import CustomerTickets from "./Components/CustomerTickets/CustomerTickets";
 const fetchTickets = async () => {
   const res = await fetch("/ticketStatus.json");
   return res.json();
-};
+}
+
+const ticketsPromise = fetchTickets()
 
 function App() {
-  const ticketsPromise = fetchTickets();
+  const [inProgressCount, setInProgressCount] = useState(0);
+  const [resolvedCount, setResolvedCount] = useState(0);
+
   return (
     <>
       <NavBar></NavBar>
-      <Banner></Banner>
+      <Banner inProgressCount={inProgressCount} resolvedCount={resolvedCount}></Banner>
       <Suspense>
         <CustomerTickets
-          onClick={() => handleTickets()}
+          inProgressCount={inProgressCount}
+          resolvedCount={resolvedCount}
+          setInProgressCount={setInProgressCount}
+          setResolvedCount={setResolvedCount}
           ticketsPromise={ticketsPromise}
         ></CustomerTickets>
       </Suspense>

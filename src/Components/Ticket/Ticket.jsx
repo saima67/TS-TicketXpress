@@ -1,8 +1,8 @@
 import React from "react";
 import "./Ticket.css";
-const Ticket = ({ ticket }) => {
+const Ticket = ({ ticket, handleTicket }) => {
   return (
-    <div className="card p-4 bg-base-100 shadow-sm text-[#627382]">
+    <div className="card p-4 bg-base-100 shadow-sm text-[#627382] cursor-pointer" onClick={() => handleTicket(ticket)}>
       <div className="flex justify-between">
         <h4 className="text-nowrap text-[#34485A] font-semibold ">{ticket.title}</h4>
         <div

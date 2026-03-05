@@ -1,3 +1,13 @@
+.card{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+.card:hover{
+    border-color: rgb(163, 163, 163);
+}
+
 .card .circle{
     width: 16px;
     height: 16px;
